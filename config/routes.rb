@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get '/surveys', to: 'surveys#index'
+
+  get '/surveys/:id', to: 'surveys#show'
+
+  get '/forms', to: 'forms#index'
+
+  get 'forms/show'
+
   get 'errors/not_found'
 
   get 'errors/internal_server_error'
@@ -10,8 +18,6 @@ Rails.application.routes.draw do
   get '/contact', to: 'pages#contact'
 
   root to: "pages#home"
-
-  get 'survey/:id', to: 'pages#survey'
 
   match '/404', to: 'errors#not_found', via: :all
 

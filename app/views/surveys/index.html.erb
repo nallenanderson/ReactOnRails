@@ -1,0 +1,18 @@
+<div class="outer" style="background: rgb(155, 89, 182)">
+  <span class='arrow enter' onclick="location.href = '/';">←</span>
+  <div class="main-beav">
+    <%= image_tag('chop_beaver.png')%>
+    <h2>Surveys</h2>
+    <p>
+      Here are three forms...
+    </p>
+
+    <%= link_to 'Good', surveys_path + '/kh1P4xxb', class: 'btn' %>
+
+    <%= link_to 'Private', surveys_path + '/fFIyKv26', class: 'btn' %>
+
+    <%= link_to 'Closed', surveys_path + '/y86fFIvq', class: 'btn' %>
+
+    <%= link_to 'Back', root_path %>
+  </div>
+</div>
