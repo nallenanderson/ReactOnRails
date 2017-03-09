@@ -1,4 +1,4 @@
-class HelloWorldController < ApplicationController
+class ReactController < ApplicationController
   def index
     @hello_world_props = { name: "Stranger" }
   end
