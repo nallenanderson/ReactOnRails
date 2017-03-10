@@ -13,6 +13,7 @@ gem 'uglifier', '>= 1.3.0'
 
 # new gems
 gem 'react_on_rails'
+gem 'autoprefixer-rails'
 # end new gems
 
 group :development, :test do
