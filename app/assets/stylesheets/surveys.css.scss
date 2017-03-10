@@ -182,22 +182,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
+  font-family: 'Raleway', sans-serif;
   background: transparent;
   border: solid 2px #fcfcfc;
   color: #fcfcfc;
-  flex: 1;
   min-height: 60px;
   width: 100%;
   font-size: 1.1rem;
   margin: 10px 0;
   transition: all 0.35s ease-in-out;
-  // display: flex;
-  // justify-content: center;
-  // align-items: center;
   overflow: hidden;
   position: relative;
   opacity: 1;
-  right: 0;
   text-align: center !important;
 }
 
@@ -237,6 +233,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn .zmdi {
+  top: 8px;
   transition: 0.35s ease-in-out;
   transition-delay: 0.1s;
   font-size: 2.2rem;
