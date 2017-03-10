@@ -179,6 +179,9 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
+  @media screen and (max-width: 500px) {
+    width: 330px;
+  }
 }
 
 .btn {
@@ -195,6 +198,11 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   opacity: 1;
   text-align: center !important;
+  @media screen and (max-height: 700px) {
+    font-size: 0.9rem;
+    margin: 8px 0;
+    min-height: 35px;
+  }
 }
 
 .btn.big-btn {
