@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { DragDropContext } from 'react-dnd';
-import HTML5Backend from 'react-dnd-html5-backend';
+import { default as TouchBackend } from 'react-dnd-touch-backend';
 
 import Container from './container';
 import BackButton from '../backButton';
@@ -79,4 +79,4 @@ class Drag extends Component {
   }
 }
 
-export default DragDropContext(HTML5Backend)(Drag);
+export default DragDropContext(TouchBackend)(Drag);
