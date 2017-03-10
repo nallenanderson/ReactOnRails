@@ -19,4 +19,6 @@ Rails.application.config.assets.version = '1.0'
 
 Rails.application.config.assets.precompile += %w( surveys.css )
 Rails.application.config.assets.precompile += %w( forms.css )
+Rails.application.config.assets.precompile += %w( pages.css )
+Rails.application.config.assets.precompile += %w( errors.css )
 Rails.application.config.assets.paths << Rails.root.join("app", "assets", "webpack")
