@@ -1,3 +1,5 @@
+import 'whatwg-fetch';
+
 const baseUrl = 'https://simple-server-nate.herokuapp.com/db';
 
 const headers = {

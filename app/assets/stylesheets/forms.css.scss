@@ -1,0 +1,83 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: #2BBBAD;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  color: #fcfcfc;
+}
+
+a, a:hover, a:visited, a:focus {
+  text-decoration: none;
+}
+
+.outer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 300;
+  flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+.step {
+  flex: 11;
+  align-self: center;
+  width: 400px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.btn {
+  background: transparent;
+  border: solid 2px #fcfcfc;
+  color: #fcfcfc;
+  flex: 1;
+  min-height: 60px;
+  width: 100%;
+  font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 0;
+  transition: all 0.35s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  opacity: 1;
+  right: 0;
+}
+
+.btn.big-btn {
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.btn.big-btn:hover {
+  background: transparent;
+  color: #fcfcfc;
+}
+
+.btn:hover {
+  color: #555;
+  background: #fcfcfc;
+}
+
+.btn:focus {
+  outline: none!important;
+  box-shadow: 0 0 3pt 2pt rgba(255,255,255,0.6);
+}
