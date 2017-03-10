@@ -253,6 +253,9 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   left: -200px;
   color: #16a085;
+  @media screen and (max-width: 700px) {
+    font-size: 1.2rem;
+  }
 }
 
 .btn.selected .zmdi {
